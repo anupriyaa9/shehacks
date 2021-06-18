@@ -71,7 +71,7 @@ class Profile extends StatelessWidget {
                    'Open to learning & gaining new skills!',
                      textAlign: TextAlign.center,
                      style: TextStyle(
-                     fontSize: 20,
+                     fontSize: 19,
                      fontWeight: FontWeight.w500, 
                      color: Colors.black),
               ),
