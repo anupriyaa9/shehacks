@@ -147,9 +147,8 @@ class Profile extends StatelessWidget {
               ), 
               const SizedBox(width: 10),
               Container(
-                
                 width: 120.0,
-                 child: Align(alignment:Alignment.center,
+                child: Align(alignment:Alignment.center,
                 child: 
                 Text('Experience',
                  style: TextStyle(
@@ -165,7 +164,7 @@ class Profile extends StatelessWidget {
             ),
           )
           ],
-              ),
+        ),
     );
   }
 }
