@@ -142,14 +142,17 @@ h1.temp {
     flex-direction: column;
     align-self: center;
 }
+
 .d-flex.hourly-weather {
     align-self: center;
 }
+
 .d-flex.hourly-weather {
     display: grid;
     grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr;
     gap: 10px 2em;
 }
+
 .hourly-weather-item{
     background: #2b2b2b6e;
     color: rgb(255 255 255);

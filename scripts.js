@@ -38,7 +38,6 @@ let weather = {
       document.querySelector(".lat").innerText = "Lat: "+lat; document.querySelector(".lon").innerText = "Lon: "+lon;
     },
 
-
     fetchWeekly: function (lat, lon) {
       fetch(
         api2= "https://api.openweathermap.org/data/2.5/onecall?lat="+lat+"&lon="+lon+"&exclude="+minutely+"&appid="+this.apiKey,)
